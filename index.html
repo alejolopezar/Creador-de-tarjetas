@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>JAVIER ALEJANDRO LÓPEZ ARCILA</h1>
+        <nav>
+            <ul>
+                <li><a href="#quien-soy"><b>¿Quién Soy Yo?</b></a></li>
+                <li><a href="#tecnologias"><b>Mis Tecnologías Favoritas</b></a></li>
+                <li><a href="#actividades"><b>Actividades Favoritas</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="quien-soy">
+            <h2>¿Quién Soy Yo?</h2>
+            <article>
+                <p>Soy ingeniero electrónico apasionado por las nuevas tecnologías y la creación de soluciones innovadoras a través de la programación. Me destaco por mi capacidad de adaptarme rápidamente al uso de diversas herramientas tecnológicas y mi habilidad para integrarlas eficazmente en proyectos de equipo. Soy proactivo y ordenado, con sólidos conocimientos en HTML, CSS, JavaScript, Java, SQL, NoSQL, POO, Python, GitHub y C# Soy bilingüe y sobresalgo por mi espíritu autodidacta, siempre en busca de aprender y enfrentar nuevos desafíos.</p>
+            </article>
+        </section>
+    
+        <section id="tecnologias">
+            <h2>Mis Tecnologias Favoritas</h2>
+            <div class="tecnologias">
+                <div class="tarjeta">
+                  <img src="assets/HTML.png" alt="HTML Logo">
+                  <p><b>HTML</b></p>
+                </div>
+                <div class="tarjeta">
+                  <img src="assets/CSS.png" alt="CSS Logo">
+                  <p><b>CSS</b></p>
+                </div>
+                <div class="tarjeta">
+                  <img src="assets/JAVASCRIPT.png" alt="JavaScript Logo">
+                  <p><b>JavaScript</b></p>
+                </div>
+                <div class="tarjeta">
+                    <img src="assets/JAVA.png" alt="Java Logo">
+                    <p><b>Java</b></p>
+                </div>
+                <div class="tarjeta">
+                    <img src="assets/PYTHON.png" alt="Python Logo">
+                    <p><b>Python</b></p>
+                </div>
+              </div>
+        </section>
+    
+        <section id="actividades">
+            <h2>Mis Actividades Favoritas</h2>
+            <form id="actividad-form">
+                <input type="text" id="actividad" placeholder="Nombre de la Actividad">
+                <textarea id="descripcion" placeholder="Descripción de la Actividad"></textarea>
+                <input type="url" id="link" placeholder="Link de la Imagen">
+                <button type="submit">Agregar Actividad</button>
+              </form>
+    
+            <div id="actividades-container">
+                <!--las actividades se agregaran aqui--> 
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    
+    <script src="scripts/modulo.js"></script>
+    <script src="scripts/controler.js"></script>
+    <script src="scripts/index.js"></script>
+    
+</body>
+</html>

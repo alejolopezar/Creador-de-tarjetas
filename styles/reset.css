@@ -1,0 +1,65 @@
+/* Reset CSS */
+
+/* Eliminar márgenes, paddings y bordes de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definir el ancho y alto de los elementos de la lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Establecer fuentes y tamaños base */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Asegurar que los elementos multimedia se comporten correctamente */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Asegurar que los enlaces no tengan subrayado y que cambien de color al interactuar */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Quitar estilos de tabla */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Establecer estilo básico para botones */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Definir estilos básicos para el enfoque de los elementos interactivos */
+:focus {
+    outline: none;
+}
+
+/* Asegurar que los formularios no tengan bordes ni rellenos adicionales */
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+/* Quitar estilo predeterminado de citas en blockquote */
+blockquote, q {
+    quotes: none;
+}
+
+/* Restablecer estilos de contenido embebido */
+embed, iframe, object {
+    border: 0;
+}

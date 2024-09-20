@@ -1,0 +1,87 @@
+[33mcommit bdc3b76580b5dff4b6ef325ff5745b625a9fa0e1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: alejolopezar <alejo131996@hotmail.com>
+Date:   Sat Aug 17 08:05:19 2024 -0500
+
+    fith commit: this is my final code improved with an id attribute that allows me to delete an activity in a clear way.
+
+[33mcommit d3415e1dcf3aafe2b398b6814755cb79f169b86c[m
+Author: alejolopezar <alejo131996@hotmail.com>
+Date:   Sun Aug 11 18:19:40 2024 -0500
+
+    cuarto commit: en este commit se desarrollo la clase 3 del modulo 1.ACTIVIDAD 01
+    Implementar las funciones necesarias para lograr la funcionalidad de la sección “Mis Actividades Favoritas”.
+    
+    Crear una instancia de la clase Repository con la que trabajaremos en toda la actividad.
+    ACTIVIDAD 02
+    Implementar una función que tomará UNA instancia de Activity y la convertirá en elemento HTML. Esta función nos servirá más adelante. La función deberá:
+    
+    Recibir por parámetro un objeto instancia de Activity.
+    
+    Extraer sus propiedades en variables utilizando destructuring.
+    
+    Crear los elementos HTML que formarán parte de la tarjeta. Ej: <h3> para el título, <p> para la descripción, <img> para la imagen.
+    
+    Asignar los valores a las propiedades correspondientes a cada uno de los elementos. Ej: a la propiedad innerHTML del elemento del título, asignar el valor correspondiente. A la propiedad src del elemento de la imagen, asignar el valor correspondiente.
+    
+    Agregar a los elementos las clases CSS correspondientes que hayas implementado para darles estilos.
+    
+    Crear un elemento <div> que será la tarjeta donde incluiremos todos los demás elementos.
+    
+    “Appendear” al nuevo <div> los elementos creados anteriormente .
+    
+    Asignar al <div> la clase CSS que tengas implementada para darle estilos.
+    
+    Retornar el <div> finalizado con todos los elementos correspondientes dentro.
+    ACTIVIDAD 03
+    Implementar una función que se encargará de “convertir” TODAS las instancias de Activity en elementos HTML para agregarlos al contenedor correspondiente. La función deberá:
+    
+    Seleccionar el contenedor donde queremos agregar las actividades.
+    
+    Vaciar el contenido actual del contenedor. Se puede hacer manipulando la propiedad innerHTML.
+    
+    Obtener el listado completo de actividades mediante el método correspondiente de una instancia de Repository.
+    
+    “Mapear” el listado de actividades para convertirlos todos en elementos HTML. Para ello utilizar el método “map”, aprovechando como callback la función que hicimos en el punto anterior. Guardar el resultado del mapeo en una nueva variable.
+    
+    “Appendear” todos los elementos HTML del nuevo array dentro del contenedor seleccionado. Para ello puedes utilizar el método forEach.
+    ACTIVIDAD 04
+    Implementar la función handler que se ejecutará al disparar el evento del botón. La misma deberá:
+    
+    Seleccionar los inputs de title, description e imgUrl.
+    
+    Tomar los valores ingresados en los inputs y guardarlos en variables.
+    
+    Validar que estos valores estén completos. De lo contrario deberá cortar el proceso y mostrar un mensaje avisando al usuario de que hay datos incompletos.
+    
+    Llamar al método correspondiente de la instancia de Repository para crear una nueva actividad.
+    
+    Invocar la función que implementamos en el punto anterior para “refrescar” el contenedor de actividades.
+    
+    ACTIVIDAD 05
+    1. Seleccionar el botón que disparará el evento de agregar actividad y agregar un Event Listener. El evento, al dispararse, debe ejecutar la función que creamos en el punto anterior.
+    
+    2. EXTRA CREDIT. Implementar la funcionalidad de eliminar tarjetas del contenedor al hacer click sobre ellas o sobre algún nuevo botón que podamos agregar a las mismas. Eres libre de encarar esta funcionalidad de la manera que consideres adecuada. 🤖 Puedes apoyarte en la IA para ayudarte a realizar este punto. 🤖
+
+[33mcommit 4b0393ed197232646b510eab735133e93376c01c[m
+Author: alejolopezar <alejo131996@hotmail.com>
+Date:   Wed Aug 7 22:07:05 2024 -0500
+
+    Tercer commit: He corregido el codigo para desarrollarlo siguendo el paso a paso de las instrucciones de las clases 1 y 2 del modulo 1.  He dejado como comentario las pruebas que he hecho para determinar que los metodos estan trabajando como corresponden
+
+[33mcommit 5a18482195f86b6aa6002e318274881b8a47ef25[m
+Author: alejolopezar <alejo131996@hotmail.com>
+Date:   Wed Aug 7 13:30:35 2024 -0500
+
+    actualice algunos parametros en el css como el padign del div contenedor de tarjetas de actividades y el tamaña del div de las tarjetas
+
+[33mcommit d812a32d7bfb947a62424a2aa49b6b73613867e0[m
+Author: alejolopezar <alejo131996@hotmail.com>
+Date:   Wed Aug 7 13:03:07 2024 -0500
+
+    First commit: Primera homework del modulo 1.  En este commit he creado la estructura HTML, el estilo CSS y la funcionalidad en JavaScript de na pagina web personal donde cunto quien soy yo y las herramientas tecnologicas que mas me gustan y en la ultima seccion hay 3 inputs para añadir actividades que me gustan realizar junto con una descripcion y una imagen
+
+[33mcommit e46ac42ed8fd1a4e03fb69de7d8292dd669e0c57[m
+Author: henry-auto-invi-fork[bot] <153619174+henry-auto-invi-fork[bot]@users.noreply.github.com>
+Date:   Tue Aug 6 01:10:16 2024 +0000
+
+    Initial commit
